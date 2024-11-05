@@ -1,0 +1,16 @@
+### list mangas
+GET http://localhost:3000/mangas
+
+### get manga
+GET http://localhost:3000/mangas/1
+
+### create manga
+POST http://localhost:3000/mangas
+Content-Type: application/json
+
+### update manga
+PATCH http://localhost:3000/mangas/1
+Content-Type: application/json
+
+### delete manga
+DELETE http://localhost:3000/mangas/1
